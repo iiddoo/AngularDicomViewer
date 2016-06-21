@@ -1,0 +1,58 @@
+﻿
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js" ng-app="DicomViewer">
+<!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Dicom Viewer web appliction">
+    <meta name="author" content="Ido Lev">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Dicom Viewer App</title>
+
+    <link rel="stylesheet" href="app/lib/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="app/css/dicomViewer.css" />
+
+</head>
+
+<body>
+
+    <!--<div class="clearfix"> </div>-->
+
+    <div ui-view> </div>
+    <!--<div class="container">-->
+        <!--<div ui-view> </div>-->
+    <!--</div>-->
+
+    <!-- CORE JAVASCRIPT -->
+    <script src="app/lib/jquery/jquery.min.js"></script>
+    <script src="app/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="app/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="app/lib/cornerstone/cornerstone.min.js"></script>
+    <script src="app/lib/cornerstone/cornerstoneMath.min.js"></script>
+    <script src="app/lib/cornerstone/cornerstoneTools.min.js"></script>
+    <script src="app/lib/dicomParser/dicomParser.min.js"></script>
+    <script src="app/lib/jpx/jpx.min.js"></script>
+    <script src="app/lib/imageLoader/imageLoader.js"></script>
+
+    <!-- CORE ANGULAR -->
+    <script src="app/lib/angular/angular.min.js"></script>
+    <script src="app/lib/angular/angular-sanitize.min.js"></script>
+    <script src="app/lib/angular/angular-resource.min.js"></script>
+    <script src="app/lib/angular/angular-touch.min.js"></script>
+    <script src="app/lib/angular/angular-ui-router.min.js"></script>
+    <script src="app/lib/angular/ocLazyLoad.min.js"></script>
+    <script src="app/lib/ngDraggable/ngDraggable.js"></script>
+    <script src="app/lib/ngDicomViewer/ngDicomViewer.js"></script>
+
+    <!-- APP ANGULAR -->
+    <script src="app/app.js"></script>
+</body>
+
+</html>

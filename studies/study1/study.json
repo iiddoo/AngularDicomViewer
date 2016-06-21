@@ -1,0 +1,688 @@
+{
+  "study": {
+    "series": [
+        {
+          "objects": [
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 489,
+                        "windowWidth": 981,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            15.828831672668,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 15,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455446444.4624159277079699492",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859597703" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 492,
+                        "windowWidth": 984,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            11.028831481934,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 13,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455446132.1715335897950972625",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859596381" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 482,
+                        "windowWidth": 964,
+                        "bigEndian": false,
+                        "pixelDataOffset": 3652,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            6.2288312911987,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 11,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445820.8206166844706649913",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859594833" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 483,
+                        "windowWidth": 978,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            1.4288314580917,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 9,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445508.4528908633114954209",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859592295" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 502,
+                        "windowWidth": 1021,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -3.3711686134338,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 7,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445197.6370267765215718666",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859590471" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 500,
+                        "windowWidth": 1007,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -8.1711683273315,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 5,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455444862.5322736686800099868",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859589443" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 491,
+                        "windowWidth": 971,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -12.971168518066,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 3,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455444537.7917108729578147939",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859588159" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 494,
+                        "windowWidth": 991,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -17.771167755127,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 1,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455444224.2775055319547161506",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859586379" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 499,
+                        "windowWidth": 993,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -15.371168136597,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 2,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455444380.9196065114268736723",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859587327" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 499,
+                        "windowWidth": 994,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -10.571168899536,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 4,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455444691.2214819553632741646",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859588867" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 505,
+                        "windowWidth": 1024,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -5.7711687088013,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 6,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445020.3576245910455072033",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859589953" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 506,
+                        "windowWidth": 1038,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            -0.9711685180664,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 8,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445352.1261182071271900485",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859590965" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 484,
+                        "windowWidth": 964,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            3.8288314342499,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 10,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445664.1787513063044684809",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859593781" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 497,
+                        "windowWidth": 994,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            8.6288318634033,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 12,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455445981.3938016394935517321",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859595653" }
+                },
+                {
+                    "dicomMetadata": {
+                        "columns": 320,
+                        "rows": 320,
+                        "samplesPerPixel": 1,
+                        "transferSyntax": "1.2.840.10008.1.2.1",
+                        "pixelRepresentation": 0,
+                        "bitsAllocated": 16,
+                        "photometricInterpretation": "MONOCHROME2",
+                        "slope": 1.0,
+                        "intercept": 0.0,
+                        "windowCenter": 503,
+                        "windowWidth": 1012,
+                        "bigEndian": false,
+                        "pixelDataOffset": 7774,
+                        "frameOfRefUid": "1.3.12.2.1107.5.2.36.40520.2.20141222201903593.0.0.0",
+                        "patientImagePosition": [
+                            13.428831100464,
+                            -94.811992210566,
+                            105.14975515117
+                        ],
+                        "instanceNumber": 14,
+                        "pixelSpacing": [
+                            0.65625,
+                            0.65625
+                        ],
+                        "sopInstanceUid": "1.3.6.1.4.1.41327.1419455446289.6760361959079300128",
+                        "patientImageOrientation": [
+                            0,
+                            0.98875638579338,
+                            -0.1495353120598,
+                            0,
+                            -0.1495353120598,
+                            -0.9887563857934
+                        ]
+                    },
+                    "fileMeta": { "id": "25859597187" }
+                }
+            ],
+          "dicomMetadata": {
+            "SeriesNumber": 12,
+            "SeriesInstanceUID": "mri1",
+            "modality": "MRI"
+          }
+
+        },
+        {
+            "objects": [
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.3.6.1.4.1.25403.166563008443.732.20120418082502.1"
+                    },
+                    "fileMeta": { "id": "25859597703119" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.3.6.1.4.1.25403.166563008443.732.20120418082503.1"
+                    },
+                    "fileMeta": { "id": "258595977031110" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.3.6.1.4.1.25403.166563008443.732.20120418082505.1"
+                    },
+                    "fileMeta": { "id": "258595977031111" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.3.6.1.4.1.25403.166563008443.732.20120418082506.1"
+                    },
+                    "fileMeta": { "id": "258595977031112" }
+                }
+            ],
+            "dicomMetadata": {
+                "SeriesNumber": 11,
+                "SeriesInstanceUID": "dopler",
+                "modality": "Dopler"
+            }
+
+        },
+        {
+            "objects": [
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113857.113857.1829.105008.1.2"
+                    },
+                    "fileMeta": { "id": "25859597703115" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113857.113857.1829.105008.1.3"
+                    },
+                    "fileMeta": { "id": "25859597703116" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113857.113857.1829.105008.1.6"
+                    },
+                    "fileMeta": { "id": "25859597703117" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113857.113857.1829.105008.1.7"
+                    },
+                    "fileMeta": { "id": "25859597703118" }
+                }
+            ],
+            "dicomMetadata": {
+                "SeriesNumber": 10,
+                "SeriesInstanceUID": "jpeg",
+                "modality": "Ultrasound"
+            }
+
+        },
+        {
+            "objects": [
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113619.2.5.1762583153.215519.978957063.80"
+                    },
+                    "fileMeta": { "id": "25859597703112" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113619.2.5.1762583153.215519.978957063.122"
+                    },
+                    "fileMeta": { "id": "25859597703113" }
+                },
+                {
+                    "dicomMetadata": {
+                        "sopInstanceUid": "1.2.840.113619.2.5.1762583153.215519.978957063.136"
+                    },
+                    "fileMeta": { "id": "25859597703114" }
+                }
+            ],
+            "dicomMetadata": {
+                "SeriesNumber": 9,
+                "SeriesInstanceUID": "mri",
+                "modality": "MRI"
+            }
+
+        }
+    ],
+    "dicomMetadata": {
+      "studyUid": "1.3.6.1.4.1.41327.1419455405692.119899256193931208",
+      "institutionName": "MEDXT",
+      "modality": "MR",
+      "patientName": "Monkey^Orchid^^Anon"
+    }
+  }
+}

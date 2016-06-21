@@ -1,0 +1,168 @@
+﻿
+
+
+<div ng-controller="DicomViewerController as vm" class="dicom-viewer">
+
+    <!--start top-panel buttons-->
+    <header class ="dv-header">
+        <div class="ng-dv-toolbox">
+            <div class="btn-group" data-toggle="buttons">
+                <label class="dropdown pull-left">
+                    <button class="btn btn-default dropdown-toggle ng-dv-btn btn-icon-only label-info"
+                            type="button"
+                            id="dropdownMenu1"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="true">
+                        View
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a dv-view-button view="1" text="1X1"></a></li>
+                        <li><a dv-view-button view="2" text="1X2"></a></li>
+                        <li><a dv-view-button view="3" text="2X1"></a></li>
+                        <li><a dv-view-button view="4" text="2X2"></a></li>
+                    </ul>
+                </label>
+                <div dv-zoom-button title="zoom"></div>
+                <div dv-pan-button title="pan"></div>
+                <div dv-wwwc-button title="ww/wc"></div>
+                <div dv-highlight-button title="highlight"></div>
+                <div dv-angle-button title="angle"></div>
+                <div dv-rectangle-button title="rectangle"></div>
+                <div dv-circle-button title="circle"></div>
+                <div dv-probe-button title="probe"></div>
+                <div dv-length-button title="length"></div>
+                <div dv-clear-button title="clear"></div>
+            </div>
+        </div>
+        <div class="header-logo">
+            <a href="#">DICOM Viewer</a>
+        </div>
+    </header>
+    <!--end top-panel buttons-->
+
+    <!--start side-bar-->
+    <div class="dv-sidebar">
+        <!--<div class="dv-study-metadata">-->
+            <!--<div class="logo-head">-->
+                <!--<span class="logo-custom">Study Series</span>-->
+            <!--</div>-->
+            <!--<ul class="study-metadata">-->
+                <!--<li>-->
+                    <!--Institution Name: <span class="label" ng-bind="vm.studyMetadata.institutionName"></span>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--Modality: <span class="label" ng-bind="vm.studyMetadata.modality"></span>-->
+                <!--</li>-->
+                <!--<li>-->
+                    <!--Patient Name: <span class="label" ng-bind="vm.studyMetadata.patientName"></span>-->
+                <!--</li>-->
+            <!--</ul>-->
+        <!--</div>-->
+        <section class="dv-thumbnails">
+            <div ng-repeat="series in vm.studySeries">
+                <a class="thumbnail"
+                   data-position="top center">
+                    <span ng-show="series.loaded" ng-bind="series.dicomMetadata.modality"></span>
+                    <span class="progress" ng-hide="series.loaded">
+                        <div class="progress-bar"
+                             role="progressbar"
+                             aria-valuenow="series.progress"
+                             aria-valuemin="0"
+                             aria-valuemax="100"
+                             ng-style="{width : series.progress}"
+                             ng-bind="series.progress">
+                        </div>
+                    </span>
+                    <div dv-drag-stack
+                         id="{{series.dicomMetadata.SeriesNumber}}"
+                         ng-model="series"
+                         ng-init="vm.getStudySeries(series,series.dicomMetadata.SeriesNumber)"
+                         ng-class="move-cursor"></div>
+                </a>
+            </div>
+
+            <!--<div ng-repeat="object in vm.singleSeries">-->
+                <!--<a class="thumbnail" data-position="top center">-->
+                    <!--<span ng-bind="object.fileMeta.id"></span>-->
+                    <!--<div dv-drag-image-->
+                         <!--ng-model="object"-->
+                         <!--id="{{object.fileMeta.id}}"-->
+                         <!--ng-init="vm.getSingleImage(object,object.fileMeta.id)"-->
+                         <!--class="move-cursor"></div>-->
+                <!--</a>-->
+            <!--</div>-->
+
+        </section>
+    </div>
+    <!--end side-bar-->
+
+    <!--helper for drag n drop-->
+    <div ng-drag-clone>
+        <div class="move-cursor" id="cloneImage"></div>
+    </div>
+
+    <!--start main-view-->
+    <main class="dv-main">
+        <div class="dv-nav-tabs">
+            <!--view 1-->
+            <div id="dv-wrapper-image1"
+                 class="tab-pane"
+                 ng-class="{'dv-frame-view1':vm.view==1,'dv-frame-view2':vm.view==2,'dv-frame-view3':vm.view==3,'dv-frame-view4':vm.view==4}"
+                 oncontextmenu="return false"
+                 onmousedown='return false'>
+                <div dv-drop-image id="dv-image1" class="dv-image-frame dv-view1"></div>
+                <span dv-image-zoom resource="dv-image1" class="dv-image-details dv-view-zoom"></span>
+                <span dv-image-index resource="dv-image1" class="dv-image-details dv-view-index"></span>
+                <span dv-image-wwwc resource="dv-image1" class="dv-image-details dv-view-wwwc"></span>
+                <span dv-image-description resource="dv-image1" class="dv-image-details dv-view-description"></span>
+                <span dv-image-modality resource="dv-image1" class="dv-image-details dv-view-modality"></span>
+            </div>
+            <!--view 2-->
+            <div ng-show="vm.view>1"
+                 id="dv-wrapper-image2"
+                 class="tab-pane"
+                 ng-class="{'dv-frame-view2':vm.view==2,'dv-frame-view3':vm.view==3,'dv-frame-view4':vm.view==4}"
+                 oncontextmenu="return false"
+                 onmousedown='return false'>
+                <div dv-drop-image id="dv-image2" class="dv-image-frame dv-view2"></div>
+                <span dv-image-zoom resource="dv-image2" class="dv-image-details dv-view-zoom"></span>
+                <span dv-image-index resource="dv-image2" class="dv-image-details dv-view-index"></span>
+                <span dv-image-wwwc resource="dv-image2" class="dv-image-details dv-view-wwwc"></span>
+                <span dv-image-description resource="dv-image2" class="dv-image-details dv-view-description"></span>
+                <span dv-image-modality resource="dv-image2" class="dv-image-details dv-view-modality"></span>
+            </div>
+            <!--view 3-->
+            <div ng-show="vm.view==4"
+                 id="dv-wrapper-image3"
+                 class="tab-pane dv-frame-view4"
+                 oncontextmenu="return false"
+                 onmousedown='return false'>
+                <div dv-drop-image id="dv-image3" class="dv-image-frame dv-view4"></div>
+                <span dv-image-zoom resource="dv-image3" class="dv-image-details dv-view-zoom"></span>
+                <span dv-image-index resource="dv-image3" class="dv-image-details dv-view-index"></span>
+                <span dv-image-wwwc resource="dv-image3" class="dv-image-details dv-view-wwwc"></span>
+                <span dv-image-description resource="dv-image3" class="dv-image-details dv-view-description"></span>
+                <span dv-image-modality resource="dv-image3" class="dv-image-details dv-view-modality"></span>
+            </div>
+            <!--view 4-->
+            <div ng-show="vm.view==4"
+                 id="dv-wrapper-image4"
+                 class="tab-pane dv-frame-view4"
+                 oncontextmenu="return false"
+                 onmousedown='return false'>
+                <div dv-drop-image id="dv-image4" class="dv-image-frame dv-view4"></div>
+                <span dv-image-zoom resource="dv-image4" class="dv-image-details dv-view-zoom"></span>
+                <span dv-image-index resource="dv-image4" class="dv-image-details dv-view-index"></span>
+                <span dv-image-wwwc resource="dv-image4" class="dv-image-details dv-view-wwwc"></span>
+                <span dv-image-description resource="dv-image4" class="dv-image-details dv-view-description"></span>
+                <span dv-image-modality resource="dv-image4" class="dv-image-details dv-view-modality"></span>
+            </div>
+        </div>
+    </main>
+    <!--end main-view-->
+
+
+</div>
+
