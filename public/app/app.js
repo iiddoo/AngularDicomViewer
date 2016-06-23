@@ -23,7 +23,7 @@ DicomViewer.config(['$stateProvider', '$urlRouterProvider', function ($stateProv
     $stateProvider
         .state('DicomViewer', {
             url: "/DicomViewer.html",
-            templateUrl: "app/Views/DicomViewer.html",
+            templateUrl: "app/views/DicomViewer.html",
             data: { pageTitle: 'Dicom Viewer' },
             controller: "DicomViewerController",
             resolve: {
