@@ -10,7 +10,6 @@
     "superagent": "^1.2.0"
   },
   "devDependencies": {},
-  "main": "index.html",
   "scripts": {
     "start": "node server.js"
   }
