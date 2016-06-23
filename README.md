@@ -1,3 +1,3 @@
 # AngularDicomViewer
 
-View Live Example: https://dicomviewer.herokuapp.com
+Live Example: http://dicomviewer.herokuapp.com
