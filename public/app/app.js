@@ -23,7 +23,7 @@ DicomViewer.config(['$stateProvider', '$urlRouterProvider', function ($stateProv
     $stateProvider
         .state('DicomViewer', {
             url: "/DicomViewer.html",
-            templateUrl: "App/Views/DicomViewer.html",
+            templateUrl: "app/Views/DicomViewer.html",
             data: { pageTitle: 'Dicom Viewer' },
             controller: "DicomViewerController",
             resolve: {
@@ -31,7 +31,7 @@ DicomViewer.config(['$stateProvider', '$urlRouterProvider', function ($stateProv
                     return $ocLazyLoad.load([{
                         name: 'DicomViewer',
                         files: [
-                            'App/controllers/DicomViewerController.js'
+                            'app/controllers/DicomViewerController.js'
                         ]
                     }]);
                 }]
