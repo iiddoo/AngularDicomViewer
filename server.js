@@ -8,6 +8,8 @@ process.on('uncaughtException', function (err) {
 var app = express();
 var router = express.Router();
 
+var port = process.env.PORT || 8080;
+
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
@@ -82,7 +84,7 @@ app.get('/study/:studyId/:seriesId/:fileId', function(req, res) {
 // });
 
 
-app.listen(80);
+app.listen(port);
 
-console.log('listening on port: 80');
+console.log('listening on port: '+ port);
 
