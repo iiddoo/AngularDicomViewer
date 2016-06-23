@@ -6,7 +6,7 @@ DicomViewerController.$inject = ['$rootScope','$http', '$q' ,'ngDvService'];
 function DicomViewerController($rootScope,$http, $q ,ngDvService) {
     var vm = this;
 
-    vm.dataUrl='http://localhost:4444/';
+    vm.dataUrl='http://dicomviewer.herokuapp.com/';
     vm.studyId='';
     vm.studyMetadata={};
     vm.studySeries=[];
