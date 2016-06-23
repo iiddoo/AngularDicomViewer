@@ -10,8 +10,8 @@
     "superagent": "^1.2.0"
   },
   "devDependencies": {},
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   }
 }
