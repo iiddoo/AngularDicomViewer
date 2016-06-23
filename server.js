@@ -82,7 +82,7 @@ app.get('/study/:studyId/:seriesId/:fileId', function(req, res) {
 // });
 
 
-app.listen(4444);
+app.listen(80);
 
-console.log('listening on port: 4444');
+console.log('listening on port: 80');
 
