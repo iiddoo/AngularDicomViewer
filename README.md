@@ -1,13 +1,13 @@
 # AngularDicomViewer
 
-Viewer for *DICOM documents* with features and actions.
+[Node.js](https://nodejs.org/) 1.x.x Viewer for *DICOM documents* with features and actions using conerstone ngDraggble.
 
 The app
 ----
 
-  - **Query validation**
-  - **Search for match**
-  - **Return and view result to user**
+  - **Image Loader**
+  - **Viewer modoule**
+  - **Usage example**
 
 ##### Query validation
 
