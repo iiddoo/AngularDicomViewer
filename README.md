@@ -6,7 +6,7 @@ The app
 ----
 
   - **Image Loader**
-  - **Viewer modoule**
+  - **Viewer module**
   - **Usage example**
 
 ##### Query validation
