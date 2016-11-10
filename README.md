@@ -1,11 +1,8 @@
 # AngularDicomViewer
 
 This [AngularDicomViewer](https://github.com/iiddoo/AngularDicomViewer) is an [AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) JavaScript library.
-This project provides:
 
-  - **Image Loader**
-  - **Viewer module**
-  - **Usage example**
+This project provides:
 
 ##### Image Loader
 
@@ -33,13 +30,12 @@ This is an [AngularJS](https://github.com/angular/angular.js) module provides lo
 * Image description.
 * Drag and drop images using [ngDraggable](https://github.com/fatlinesofcode/ngDraggable/).
 
-### Technologies
+### The example app
 
 Back-end written in [Node.js](https://nodejs.org/) and requires v4.x.x to run.
 
 Front-end uses [AngularJS](https://angularjs.org/) framework v1.4.7.
 
-### Actions
 ```sh
 Drag and drop DICOM stack to the viewer
 ```
