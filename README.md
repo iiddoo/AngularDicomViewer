@@ -1,6 +1,6 @@
 # AngularDicomViewer
 
-[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) JavaScript library.
+This [AngularDicomViewer](https://github.com/iiddoo/AngularDicomViewer) is an [AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) JavaScript library.
 This project provides:
 
   - **Image Loader**
