@@ -47,13 +47,13 @@ Drag and drop DICOM stack to the viewer
 Select an action
 ```
 ```sh
-Mouse left-click to draw
+Mouse left-click to DRAW
 ```
 ```sh
-Mouse wheel-scroll to zoom or ww/wc
+Mouse wheel-scroll to ZOOM or WW/WC
 ```
 ```sh
-Cange view with view select dropdown
+Change view with view select dropdown
 ```
 
 App structure
@@ -77,19 +77,24 @@ AngularDicomViewer
 │
 └───public
     └───app
-    │    └───exercise  
-    │    │      │   exercise.controller.js
-    │    │      │   exercise.view.html
-    │    │   app.js
-    └───components
-    │     │   angular.min.js  
-    │     │   angular-resource.min.js   
-    │     │   angular-ui-router.min.js  
-    │     │   ocLazyLoad.min.js
-    │     │   taggedInfiniteScroll.min.js
-    └───style
-    │     │   custom.css  
-    │     │   klarna-ui-css-components.css   
+    │    └───controllers  
+    │    │      │   DicomViewerController.js
+    |    └───css
+    │    |      │   dicomViewer.css 
+    │    |      │   dicomViewer.less 
+    |    └───lib
+    │    │      |   angular  
+    │    │      |   bootstrap
+    │    │      |   cornerstone
+    │    │      |   dicomParser  
+    │    │      |   imageLoader
+    │    │      |   jpx
+    │    │      |   jquery
+    │    │      |   ngDicomViewer
+    │    │      |   ngDraggble
+    |    └───views
+    │    │      |   DicomViewer.html
+    │    │   app.js  
     │
     │   index.html
 
