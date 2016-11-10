@@ -1,6 +1,6 @@
 # AngularDicomViewer
 
-[Node.js](https://nodejs.org/) 1.x.x Viewer for *DICOM documents* with features and actions using conerstone ngDraggble.
+[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for *DICOM documents* with features and actions using conerstone ngDraggble.
 
 The app
 ----
