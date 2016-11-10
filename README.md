@@ -1,81 +1,75 @@
 # AngularDicomViewer
 
-[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) and ngDraggble.
-
-
-The app
-----
+[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) JavaScript library.
+This project provides:
 
   - **Image Loader**
   - **Viewer module**
   - **Usage example**
 
-##### Query validation
+##### Image Loader
 
-> Server side validation checks valid query object and it's fields, 
-details below regarding to client side validation.
+Using [conerstone](https://github.com/chafey/cornerstone) and [dicomParser](https://github.com/chafey/dicomParser) JavaScript libraries, the *Image Loader* parses the images and uses *DICOM* metadata to render the HTML canvas.  
 
-* Maximum 3 query fields.
-* Age field is any number > 0 && < 120 (120 defined as maximum age).
-* Phone field is any number >120.
-* Name field is NaN and includes letters only.
-* Query field can appear only once.
-* Support case insensitive for *name* search.
+##### Viewer module
 
-##### Search for match
+This is an [AngularJS](https://github.com/angular/angular.js) module provides loading service, drag and drop DICOM Stacks to viewport and several actions on the rendered image:
+* Zoom
+* Pan
+* WW/WC
+* Highlight
+* Angle
+* Rectangle
+* Circle
+* Probe
+* Length
+* Clear
 
-* Confirm query validation before starting search.
-* Valid match only if all query fields found match in person properties.
-* Person object expanded with additional fields for efficient compare.
+##### Usage example
 
-
-##### Return and view result to user
-
-* Loader animation while waiting for reply from server.
-* Showing error message in case of long query or invalid characters.
-* View results with detailed user query parsed to fields.
-* Show the number of matching results.
-* Server side pagination for big data results (default page size 20 records).
-* Use client side infinite scroll to display large amounts of data.
-
+* Live example: [http://dicomviewer.herokuapp.com](http://dicomviewer.herokuapp.com/)
+* Several images views 1X1, 1X2, 2X1 and 2X2.
+* Paging through stacks.
+* Image description.
+* Drag and drop images using [ngDraggable](https://github.com/fatlinesofcode/ngDraggable/).
 
 ### Technologies
 
-Back-end written in [Node.js](https://nodejs.org/) and requires v4+ to run.
+Back-end written in [Node.js](https://nodejs.org/) and requires v4.x.x to run.
 
 Front-end uses [AngularJS](https://angularjs.org/) framework v1.4.7.
 
-### plugins
+### Actions
 ```sh
-body-parser
+Drag and drop DICOM stack to the viewer
 ```
 ```sh
-express
+Select an action
 ```
 ```sh
-angular-resource
+Mouse left-click to draw
 ```
 ```sh
-angular-ui-router
+Mouse wheel-scroll to zoom or ww/wc
 ```
 ```sh
-oclazyload
-```
-```sh
-taggedInfiniteScroll
+Cange view with view select dropdown
 ```
 
 App structure
 ----
 
 ```
-Exercise
+AngularDicomViewer
 │   package.jason
 │   readme.md
 │   server.js
 │
-└───data
-│    │   people.jason
+└───study1
+│    │   dopler
+|    |   jpeg
+|    |   mri
+|    |   study.json
 │
 └───node_modules
 │    │   body-parser
