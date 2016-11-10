@@ -1,5 +1,5 @@
 /**
- * Created by FGU on 21/03/2016.
+ * Created by Ido Lev on 21/03/2016.
  */
 
 angular.module('ngDicomViewer',[])
