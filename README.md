@@ -57,6 +57,7 @@ App structure
 
 ```
 AngularDicomViewer
+|
 │   package.jason
 │   readme.md
 │   server.js
@@ -72,6 +73,7 @@ AngularDicomViewer
 │    │   express
 │
 └───public
+    |
     └───app
     │    └───controllers  
     │    │      │   DicomViewerController.js
