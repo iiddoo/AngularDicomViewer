@@ -20,7 +20,7 @@ var fs = require('fs');
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
-    res.sendfile('./public/index.html'); // load the single view file (angular will handle the page changes on the front-end)
+    res.sendfile('./public/index.html');
 });
 
 app.get('/study/:studyId', function(req, res) {
@@ -28,9 +28,6 @@ app.get('/study/:studyId', function(req, res) {
         '/studies',
         req.params.studyId,
         'study.json');
-
-    //console.log(studyFile);
-    //
     if (fs.existsSync(studyFile)) {
         res.sendFile(studyFile);
     }
@@ -54,34 +51,11 @@ app.get('/study/:studyId/:seriesId/:fileId', function(req, res) {
             }
             res.send(base64_encode(dcmFile));
         }, 100);
-        //res.sendFile(result);
     }
     else {
         res.status(404).send('not found');
     }
 });
-// app.get('/study/:studyId/file/:fileId', function(req, res) {
-//     var dcmFile = path.join(__dirname,
-//         '/studies/',req.params.studyId,'/1.3.6.1.4.1.41327.1419455444224.8804112376820645989/',
-//         req.params.fileId);
-//
-//     //console.log(dcmFile);
-//     //
-//     if (fs.existsSync(dcmFile)) {
-//         //encode file data to base64 string
-//         setTimeout(function() {
-//             function base64_encode(file) {
-//                 var bitmap = fs.readFileSync(file);
-//                 return new Buffer(bitmap).toString('base64');
-//             }
-//             res.send(base64_encode(dcmFile));
-//         }, 500);
-//         //res.sendFile(result);
-//     }
-//     else {
-//         res.status(404).send('not found');
-//     }
-// });
 
 
 app.listen(port);
