@@ -1,6 +1,7 @@
 # AngularDicomViewer
 
-[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for *DICOM documents* with features and actions using conerstone ngDraggble.
+[AngularJS](https://github.com/angular/angular.js) 1.x.x Viewer for medical images and *DICOM documents* with features and actions using [conerstone](https://github.com/chafey/cornerstone) and ngDraggble.
+
 
 The app
 ----
