@@ -44,22 +44,7 @@
 
     <!--start side-bar-->
     <div class="dv-sidebar">
-        <!--<div class="dv-study-metadata">-->
-            <!--<div class="logo-head">-->
-                <!--<span class="logo-custom">Study Series</span>-->
-            <!--</div>-->
-            <!--<ul class="study-metadata">-->
-                <!--<li>-->
-                    <!--Institution Name: <span class="label" ng-bind="vm.studyMetadata.institutionName"></span>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--Modality: <span class="label" ng-bind="vm.studyMetadata.modality"></span>-->
-                <!--</li>-->
-                <!--<li>-->
-                    <!--Patient Name: <span class="label" ng-bind="vm.studyMetadata.patientName"></span>-->
-                <!--</li>-->
-            <!--</ul>-->
-        <!--</div>-->
+        
         <section class="dv-thumbnails">
             <div ng-repeat="series in vm.studySeries">
                 <a class="thumbnail"
@@ -82,18 +67,7 @@
                          ng-class="move-cursor"></div>
                 </a>
             </div>
-
-            <!--<div ng-repeat="object in vm.singleSeries">-->
-                <!--<a class="thumbnail" data-position="top center">-->
-                    <!--<span ng-bind="object.fileMeta.id"></span>-->
-                    <!--<div dv-drag-image-->
-                         <!--ng-model="object"-->
-                         <!--id="{{object.fileMeta.id}}"-->
-                         <!--ng-init="vm.getSingleImage(object,object.fileMeta.id)"-->
-                         <!--class="move-cursor"></div>-->
-                <!--</a>-->
-            <!--</div>-->
-
+            
         </section>
     </div>
     <!--end side-bar-->
